@@ -3,7 +3,7 @@ I want to compare different packages here, which want to determine the keyboard 
 - `MediaQuery.of(context).viewInsets.bottom`
   - [https://stackoverflow.com/a/48751912/10975692](https://stackoverflow.com/a/48751912/10975692)
 
-- `final viewInsets = EdgeInsets.fromWindowPadding(WidgetsBinding.instance.window.viewInsets,WidgetsBinding.instance.window.devicePixelRatio);`
+- `EdgeInsets.fromWindowPadding(WidgetsBinding.instance.window.viewInsets,WidgetsBinding.instance.window.devicePixelRatio).bottom;`
   - [https://stackoverflow.com/a/64473806/10975692](https://stackoverflow.com/a/64473806/10975692)
   - works well, but not on Android 12 
 
@@ -27,7 +27,7 @@ Other packages that are not featured here:
 - Android 10, Xiaomi A2 Lite: everything works fine except for `keyboard_utils`
 - Android 10, Xiaomi A2 Lite with Android 10 gestures: everything works fine except for `keyboard_utils`
 - Android 6: everything works fine except for `keyboard_utils` with the workaround
-- Android 12: TODO
+- Android 12 Motorola G22: everything work fine except for `keyboard_utils`
 - Android 10 tablet: TODO
 - iOS: TODO
 

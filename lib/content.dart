@@ -33,7 +33,7 @@ class ChatScreen extends StatelessWidget {
                 Container(
                   height: 20.0,
                   color: Colors.green,
-                  child: const Text('this green should be always no top of the keyboard'),
+                  child: const Text('this green should be always on top of the keyboard'),
                 ),
               ],
             ),
