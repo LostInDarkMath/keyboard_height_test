@@ -9,13 +9,6 @@ import 'solutions/media_query.dart';
 
 void main() => runApp(const MyApp());
 
-const DATA = [
-  'MediaQuery'
-  'view insets',
-  'keyboard_utils',
-  'flutter_persistent_keyboard_height',
-];
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 

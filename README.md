@@ -28,7 +28,7 @@ Other packages that are not featured here:
 - Android 10, Xiaomi A2 Lite with Android 10 gestures: everything works fine except for `keyboard_utils`
 - Android 6: everything works fine except for `keyboard_utils` with the workaround
 - Android 12 Motorola G22: everything work fine except for `keyboard_utils`
-- Android 10 tablet: TODO
+- Android 10 Tablet Lenovo M10: everything works fine except for `keyboard_utils` with the workaround
 - iOS: TODO
 
 Last edited: 2022-07-10

@@ -18,7 +18,7 @@ class _SolutionPersistentKeyboardHeightState extends State<SolutionPersistentKey
       child: Builder(
         builder: (context) { // Builder here is necessary for InheritedWidget to work
           return ChatScreen(
-            title: 'flutter_persistent_keyboard_height Pub version',
+            title: 'flutter_persistent_keyboard_height',
             keyboardHeight: PersistentKeyboardHeight.of(context).keyboardHeight,
             isKeyboardOpen: PersistentKeyboardHeight.of(context).keyboardHeight > 100.0,
           );
