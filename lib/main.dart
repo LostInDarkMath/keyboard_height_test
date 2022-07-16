@@ -63,7 +63,7 @@ class MyHomePage extends StatelessWidget {
             onTap: () => navigate(context, const SolutionKeyboardUtilsWithMediaQuery()),
           ),
           ListTile(
-            title: Text('keyboard_utils with media query', style: Theme.of(context).textTheme.bodyText1),
+            title: Text('keyboard_utils with background service', style: Theme.of(context).textTheme.bodyText1),
             onTap: () => navigate(context, const SolutionKeyboardUtilsWithBackgroundService()),
           ),
           ListTile(
