@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
+import 'solutions/keyboard_utils_with_background_service.dart';
 import 'solutions/flutter_persistent_keyboard_height.dart';
 import 'solutions/keyboard_size.dart';
 import 'solutions/keyboard_utils.dart';
-import 'solutions/view_insets.dart';
+import 'solutions/keyboard_utils_with_media_query.dart';
 import 'solutions/keyboard_utils_with_workaround.dart';
 import 'solutions/media_query.dart';
+import 'solutions/view_insets.dart';
 
 void main() => runApp(const MyApp());
 
@@ -55,6 +57,14 @@ class MyHomePage extends StatelessWidget {
           ListTile(
             title: const Text('keyboard_utils with workaround'),
             onTap: () => navigate(context, const SolutionKeyboardUtilsWithWorkaround()),
+          ),
+          ListTile(
+            title: Text('keyboard_utils with media query', style: Theme.of(context).textTheme.bodyText1),
+            onTap: () => navigate(context, const SolutionKeyboardUtilsWithMediaQuery()),
+          ),
+          ListTile(
+            title: Text('keyboard_utils with media query', style: Theme.of(context).textTheme.bodyText1),
+            onTap: () => navigate(context, const SolutionKeyboardUtilsWithBackgroundService()),
           ),
           ListTile(
             title: const Text('flutter_persistent_keyboard_height'),

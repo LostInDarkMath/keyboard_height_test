@@ -13,7 +13,7 @@ I want to compare different packages here, which want to determine the keyboard 
 
 - [flutter_persistent_keyboard_height](https://pub.dev/packages/flutter_persistent_keyboard_height)
   - based on `keyboard_utils` uses basically the maximum of the value from `keyboard_utils` and `MediaQuery.of(context).viewInsets.bottom`
-  - not very handy
+  - not very handy, a bit buggy, no recommendation
 
 - [flutter_keyboard_size](https://pub.dev/packages/flutter_keyboard_size)
   - does not look well maintained 
@@ -29,6 +29,7 @@ Other packages that are not featured here:
 - Android 6: everything works fine except for `keyboard_utils` with the workaround
 - Android 12 Motorola G22: everything work fine except for `keyboard_utils`
 - Android 10 Tablet Lenovo M10: everything works fine except for `keyboard_utils` with the workaround
+- Android 12 SM F711B: everything work fine except for `keyboard_utils`
 - iOS: TODO
 
-Last edited: 2022-07-10
+Last edited: 2022-07-13
